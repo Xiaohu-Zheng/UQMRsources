@@ -1,4 +1,4 @@
-# UQMRsources
+# UQMRresources
 
 <div align="center">
 
@@ -6,9 +6,9 @@
 
 *Papers, Tools, Datasets, and Learning Materials*
 
-[![GitHub stars](https://img.shields.io/github/stars/Xiaohu-Zheng/UQMRsources?style=flat-square)](https://github.com/Xiaohu-Zheng/UQMRsources/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Xiaohu-Zheng/UQMRsources?style=flat-square)](https://github.com/Xiaohu-Zheng/UQMRsources/network/members)
-[![License](https://img.shields.io/github/license/Xiaohu-Zheng/UQMRsources?style=flat-square)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Xiaohu-Zheng/UQMRresources?style=flat-square)](https://github.com/Xiaohu-Zheng/UQMRresources/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Xiaohu-Zheng/UQMRresources?style=flat-square)](https://github.com/Xiaohu-Zheng/UQMRresources/network/members)
+[![License](https://img.shields.io/github/license/Xiaohu-Zheng/UQMRresources?style=flat-square)](LICENSE)
 
 </div>
 
@@ -180,10 +180,10 @@ Contributions welcome! Fork → Add → Submit PR
 ```bibtex
 @misc{uqmrsources,
   author = {Zheng, Xiaohu},
-  title = {UQMRsources: Papers and Resources for UQ and Multiscale Reliability},
+  title = {UQMRresources: Papers and Resources for UQ and Multiscale Reliability},
   year = {2026},
   publisher = {GitHub},
-  url = {https://github.com/Xiaohu-Zheng/UQMRsources}
+  url = {https://github.com/Xiaohu-Zheng/UQMRresources}
 }
 ```
 
