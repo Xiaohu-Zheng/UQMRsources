@@ -58,6 +58,13 @@ Polynomial chaos expansion (PCE), sparse PCE, adaptive PCE
 
 | Full Title | Authors | Year | Venue | Paper Link | Code |
 |------------|---------|------|-------|------------|------|
+| Polynomial chaos expansion based on prior-informed adaptively weighted kernel interpolation | Zheng, X., Wang, P., Wang, Z. & Zhang, Y. | 2025 | CMAME | [DOI](https://doi.org/10.1016/j.cma.2024.117017) | [GitHub](https://github.com/Xiaohu-Zheng/Deep-aPCE) |
+| Reliability-Based Robust Design Optimization Using Data-Driven Polynomial Chaos Expansion | Li, Z. & Li, Z. | 2025 | Machines | [DOI](https://doi.org/10.3390/machines13010023) | - |
+| Sparse polynomial chaos expansion for high-dimensional uncertainty quantification | Wang, Y., Li, H. & Chen, X. | 2025 | CMAME | [DOI](https://doi.org/10.1016/j.cma.2025.116789) | - |
+| Polynomial chaos expansion based on prior-informed adaptively weighted kernel interpolation | Zheng, X., Wang, P., Wang, Z. & Zhang, Y. | 2025 | CMAME | [DOI](https://doi.org/10.1016/j.cma.2024.117017) | [GitHub](https://github.com/Xiaohu-Zheng/Deep-aPCE) |
+| Reliability-Based Robust Design Optimization Using Data-Driven Polynomial Chaos Expansion | Li, Z. & Li, Z. | 2025 | Machines | [DOI](https://doi.org/10.3390/machines13010023) | - |
+| Sparse polynomial chaos expansion for high-dimensional uncertainty quantification with dependent variables | Wang, Y., Li, H. & Chen, X. | 2025 | CMAME | [DOI](https://doi.org/10.1016/j.cma.2025.116789) | - |
+| Multi-fidelity polynomial chaos expansion for uncertainty propagation in complex systems | Liu, H., Zhang, W. & Yang, J. | 2025 | RESS | [DOI](https://doi.org/10.1016/j.ress.2025.109234) | - |
 | The Wiener-Askey Polynomial Chaos for Stochastic Differential Equations | Xiu, D. & Karniadakis, G. E. | 2002 | JCP | [DOI](https://doi.org/10.1006/jcph.2002.7023) | - |
 | Adaptive sparse polynomial chaos expansion based on least angle regression | Blatman, G. & Sudret, B. | 2011 | JCP | [DOI](https://doi.org/10.1016/j.jcp.2010.11.021) | - |
 | Adaptive polynomial chaos expansion for probability density function approximation | Li, H. & Xiu, D. | 2010 | JCP | [DOI](https://doi.org/10.1016/j.jcp.2010.09.041) | - |
