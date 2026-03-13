@@ -24,15 +24,15 @@ This project systematically organizes academic papers, open-source tools, datase
 ├─────────────────────────────────────────────────────────────┤
 │                                                              │
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐   │
-│  │ 1. Data      │───▶│ 2. Ensemble  │───▶│ 3. Multiscale│   │
-│  │ Processing   │    │ Modeling     │    │ Reliability  │   │
+│  │ 1. Data      │───▶│ 2. Ensemble  │───▶│ 3. Uncertainty│   │
+│  │ Processing   │    │ Modeling     │    │ Analysis ⭐   │   │
 │  └──────────────┘    └──────────────┘    └──────────────┘   │
 │         │                   │                   │            │
 │         └───────────┬───────┴───────────────────┘            │
 │                     ▼                                        │
 │           ┌──────────────────┐                               │
-│           │ 4. Uncertainty   │                               │
-│           │ Analysis (Core)  │                               │
+│           │ 4. Multiscale    │                               │
+│           │ Reliability      │                               │
 │           └──────────────────┘                               │
 │                     │                                        │
 │                     ▼                                        │
@@ -145,65 +145,18 @@ Ensemble modeling integrates multiple modeling approaches to construct unified p
 
 ---
 
-## Direction 3: Multiscale Reliability
+## Direction 3: Uncertainty Analysis ⭐ Core
 
-**[📁 Full Documentation](resources/3-multiscale-reliability/)**
-
-### 📖 Overview
-Multiscale reliability analysis studies reliability assessment methods for complex systems across different temporal and spatial scales, covering key tasks such as anomaly detection, fault diagnosis, and remaining useful life prediction.
-
-### 📂 Sub-directions
-- **3.1 Anomaly Detection Methods**: Statistical process control, machine learning anomaly detection
-- **3.2 Bayesian Compression Modeling**: Bayesian inference, variational inference, model compression
-- **3.3 Fault Diagnosis Methods**: Fault detection, fault classification, root cause analysis
-- **3.4 Remaining Useful Life Prediction**: RUL prediction, degradation modeling, reliability prediction
-
-### 📄 Featured Papers (35+)
-
-| Title | Authors | Year | Venue |
-|-------|---------|------|-------|
-| Anomaly detection: A survey | Chandola, V. et al. | 2009 | ACM Computing Surveys |
-| Deep learning for anomaly detection: A review | Pang, G. et al. | 2021 | IEEE TKDE |
-| Deep Autoencoding Gaussian Mixture Model | Zong, B. et al. | 2018 | ICLR |
-| Anomaly Transformer | Xu, J. et al. | 2022 | ICLR |
-| TimesNet: Temporal 2D-Variation Modeling | Wu, H. et al. | 2023 | ICLR |
-| Deep learning for fault diagnosis: A survey | Zhao, R. et al. | 2019 | IEEE TIE |
-| Remaining useful life prediction: A review | Si, X.-S. et al. | 2011 | EJOR |
-| Deep learning for RUL prediction: A review | Zhang, C. et al. | 2022 | RESS |
-
-### 🛠️ Tools Quick Access
-
-| Tool | Description | Link |
-|------|-------------|------|
-| PyOD | Python outlier detection | [pyod.readthedocs.io](https://pyod.readthedocs.io/) |
-| Alibi Detect | Anomaly detection | [docs.seldon.io/alibi-detect](https://docs.seldon.io/projects/alibi-detect/) |
-| OpenSees | Earthquake engineering + reliability | [opensees.berkeley.edu](https://opensees.berkeley.edu/) |
-| FERUM | Finite Element Reliability | [ferum.sourceforge.net](https://ferum.sourceforge.net/) |
-| UQMRLib | AI-enhanced UQ & Reliability | [GitHub](https://github.com/Xiaohu-Zheng/UQMRLib) |
-
-### 📊 Datasets
-
-| Dataset | Description | Link |
-|---------|-------------|------|
-| NASA Bearing Dataset | Bearing degradation data | [NASA Repository](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) |
-| PHM Challenge | Prognostics and health management | [phmsociety.org](https://phmsociety.org/) |
-| C-MAPSS | Turbofan engine degradation | [NASA Repository](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) |
-| FEMTO Bearing | Bearing accelerated life tests | [femto-st.fr](https://www.femto-st.fr/) |
-
----
-
-## Direction 4: Uncertainty Analysis ⭐ Core
-
-**[📁 Full Documentation](resources/4-uncertainty-analysis/)**
+**[📁 Full Documentation](resources/3-uncertainty-analysis/)**
 
 ### 📖 Overview
 Uncertainty analysis is the core research direction, focusing on quantifying and propagating various types of uncertainties to provide scientific basis for reliable decision-making.
 
 ### 📂 Sub-directions
-- **4.1 Uncertainty Calibration**: Model calibration, probability calibration, uncertainty calibration methods
-- **4.2 Uncertainty Quantification in Deep Learning**: Model uncertainty (epistemic), data uncertainty (aleatoric), Bayesian neural networks, MC Dropout
-- **4.3 Uncertainty Fusion Methods**: Multi-source uncertainty fusion, uncertainty propagation
-- **4.4 Polynomial Chaos Expansion Methods**: PCE, sparse PCE, adaptive PCE
+- **3.1 Uncertainty Calibration**: Model calibration, probability calibration, uncertainty calibration methods
+- **3.2 Uncertainty Quantification in Deep Learning**: Model uncertainty (epistemic), data uncertainty (aleatoric), Bayesian neural networks, MC Dropout
+- **3.3 Uncertainty Fusion Methods**: Multi-source uncertainty fusion, uncertainty propagation
+- **3.4 Polynomial Chaos Expansion Methods**: PCE, sparse PCE, adaptive PCE
 
 ### 📄 Featured Papers (40+)
 
@@ -248,6 +201,53 @@ Uncertainty analysis is the core research direction, focusing on quantifying and
 | Deep-aPCE | Deep learning enhanced adaptive PCE | [GitHub](https://github.com/Xiaohu-Zheng/Deep-aPCE) |
 | Deep-PCE-NN | PCE neural network method | [GitHub](https://github.com/Xiaohu-Zheng/Deep-Polynomial-Chaos-Neural-Network-Method) |
 | Physics-informed-Deep-MC-QR | Physics-informed deep Monte Carlo QR | [GitHub](https://github.com/Xiaohu-Zheng/Physics-informed-Deep-MC-QR) |
+
+---
+
+## Direction 4: Multiscale Reliability
+
+**[📁 Full Documentation](resources/4-multiscale-reliability/)**
+
+### 📖 Overview
+Multiscale reliability analysis studies reliability assessment methods for complex systems across different temporal and spatial scales, covering key tasks such as anomaly detection, fault diagnosis, and remaining useful life prediction.
+
+### 📂 Sub-directions
+- **4.1 Anomaly Detection Methods**: Statistical process control, machine learning anomaly detection
+- **4.2 Bayesian Compression Modeling**: Bayesian inference, variational inference, model compression
+- **4.3 Fault Diagnosis Methods**: Fault detection, fault classification, root cause analysis
+- **4.4 Remaining Useful Life Prediction**: RUL prediction, degradation modeling, reliability prediction
+
+### 📄 Featured Papers (35+)
+
+| Title | Authors | Year | Venue |
+|-------|---------|------|-------|
+| Anomaly detection: A survey | Chandola, V. et al. | 2009 | ACM Computing Surveys |
+| Deep learning for anomaly detection: A review | Pang, G. et al. | 2021 | IEEE TKDE |
+| Deep Autoencoding Gaussian Mixture Model | Zong, B. et al. | 2018 | ICLR |
+| Anomaly Transformer | Xu, J. et al. | 2022 | ICLR |
+| TimesNet: Temporal 2D-Variation Modeling | Wu, H. et al. | 2023 | ICLR |
+| Deep learning for fault diagnosis: A survey | Zhao, R. et al. | 2019 | IEEE TIE |
+| Remaining useful life prediction: A review | Si, X.-S. et al. | 2011 | EJOR |
+| Deep learning for RUL prediction: A review | Zhang, C. et al. | 2022 | RESS |
+
+### 🛠️ Tools Quick Access
+
+| Tool | Description | Link |
+|------|-------------|------|
+| PyOD | Python outlier detection | [pyod.readthedocs.io](https://pyod.readthedocs.io/) |
+| Alibi Detect | Anomaly detection | [docs.seldon.io/alibi-detect](https://docs.seldon.io/projects/alibi-detect/) |
+| OpenSees | Earthquake engineering + reliability | [opensees.berkeley.edu](https://opensees.berkeley.edu/) |
+| FERUM | Finite Element Reliability | [ferum.sourceforge.net](https://ferum.sourceforge.net/) |
+| UQMRLib | AI-enhanced UQ & Reliability | [GitHub](https://github.com/Xiaohu-Zheng/UQMRLib) |
+
+### 📊 Datasets
+
+| Dataset | Description | Link |
+|---------|-------------|------|
+| NASA Bearing Dataset | Bearing degradation data | [NASA Repository](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) |
+| PHM Challenge | Prognostics and health management | [phmsociety.org](https://phmsociety.org/) |
+| C-MAPSS | Turbofan engine degradation | [NASA Repository](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) |
+| FEMTO Bearing | Bearing accelerated life tests | [femto-st.fr](https://www.femto-st.fr/) |
 
 ---
 
@@ -312,20 +312,20 @@ Uncertainty-based design integrates uncertainty quantification methods into the 
 |-----------|--------|-------|----------|
 | 1. Data Processing | 20+ | 10 | 3 |
 | 2. Ensemble Modeling | 30+ | 8 | 1 |
-| 3. Multiscale Reliability | 35+ | 5 | 4 |
-| 4. Uncertainty Analysis ⭐ | 40+ | 9 | 2 |
+| 3. Uncertainty Analysis ⭐ | 40+ | 9 | 2 |
+| 4. Multiscale Reliability | 35+ | 5 | 4 |
 | 5. Uncertainty-Based Design | 28+ | 8 | - |
 
 ### By Keywords
 
 | Keyword | Direction | Papers |
 |---------|-----------|--------|
-| Polynomial Chaos Expansion (PCE) | Direction 4 | 12+ |
-| Deep Learning Uncertainty | Direction 4 | 15+ |
+| Polynomial Chaos Expansion (PCE) | Direction 3 | 12+ |
+| Deep Learning Uncertainty | Direction 3 | 15+ |
 | Physics-Informed Neural Networks | Direction 2 | 10+ |
 | Reliability-Based Design Optimization | Direction 5 | 10+ |
-| Remaining Useful Life (RUL) | Direction 3 | 10+ |
-| Anomaly Detection | Direction 3 | 10+ |
+| Remaining Useful Life (RUL) | Direction 4 | 10+ |
+| Anomaly Detection | Direction 4 | 10+ |
 | Time Series Forecasting | Direction 2 | 8+ |
 
 ---
@@ -343,7 +343,7 @@ Uncertainty-based design integrates uncertainty quantification methods into the 
 ## 🚀 Quick Start
 
 ### For Beginners
-1. 📖 Read [Direction 4: Uncertainty Analysis](resources/4-uncertainty-analysis/)
+1. 📖 Read [Direction 3: Uncertainty Analysis](resources/3-uncertainty-analysis/)
 2. 🛠️ Use [UQpy](https://uqpyproject.readthedocs.io/) or [ChaosPy](https://chaospy.readthedocs.io/)
 3. 📚 Refer to [Books & Tutorials](shared/books-tutorials.md)
 
