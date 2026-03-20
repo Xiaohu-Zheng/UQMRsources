@@ -71,6 +71,22 @@ PCE, sparse PCE, adaptive PCE
 | Adaptive sparse polynomial chaos expansion | Blatman, G. & Sudret, B. | 2011 | JCP | [DOI](https://doi.org/10.1016/j.jcp.2010.11.021) |
 | The Wiener-Askey Polynomial Chaos for SDEs | Xiu, D. & Karniadakis, G. E. | 2002 | JCP | [DOI](https://doi.org/10.1006/jcph.2002.7023) |
 
+### 2025 Conference Papers
+
+For a comprehensive list of 2025 conference papers on uncertainty analysis from top computer science conferences (NeurIPS, ICML, ICLR, CVPR, etc.), see:
+
+**[📄 2025 Conference Papers Collection](papers/2025-conference-papers.md)**
+
+This collection includes papers on:
+- Uncertainty calibration in deep learning
+- Bayesian neural networks for uncertainty quantification
+- Uncertainty-aware computer vision applications
+- Multi-source uncertainty fusion
+- Evidential deep learning for out-of-distribution detection
+- Uncertainty quantification in large language models
+- Robust optimization under uncertainty
+- Physics-informed neural networks with uncertainty propagation
+
 ---
 
 ## 🛠️ Tools Quick Access
